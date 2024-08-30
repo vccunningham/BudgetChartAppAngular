@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vcunningham\\source\\repos\\vccunningham\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj": {}
+    "C:\\Users\\vcunningham\\source\\repos\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vcunningham\\source\\repos\\vccunningham\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj": {
+    "C:\\Users\\vcunningham\\source\\repos\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vcunningham\\source\\repos\\vccunningham\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vcunningham\\source\\repos\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj",
         "projectName": "budgetChartAPI",
-        "projectPath": "C:\\Users\\vcunningham\\source\\repos\\vccunningham\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj",
+        "projectPath": "C:\\Users\\vcunningham\\source\\repos\\BudgetChartAppAngular\\budgetChartAPI\\budgetChartAPI.csproj",
         "packagesPath": "C:\\Users\\vcunningham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vcunningham\\source\\repos\\vccunningham\\BudgetChartAppAngular\\budgetChartAPI\\obj\\",
+        "outputPath": "C:\\Users\\vcunningham\\source\\repos\\BudgetChartAppAngular\\budgetChartAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vcunningham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,9 +47,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             }
           },
           "imports": [

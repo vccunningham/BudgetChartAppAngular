@@ -3,7 +3,7 @@ using budgetChartAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace budgetChartAPI;
+namespace budgetChartAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")] // /api/users

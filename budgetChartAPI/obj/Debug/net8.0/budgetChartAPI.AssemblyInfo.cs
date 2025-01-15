@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("budgetChartAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14e5e5d62a01404411705fdcb6afa47fac3755f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2529b246382b80f1bac3515b3c6876a3d2df9946")]
 [assembly: System.Reflection.AssemblyProductAttribute("budgetChartAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("budgetChartAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

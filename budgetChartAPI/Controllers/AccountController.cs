@@ -34,6 +34,7 @@ namespace budgetChartAPI.Controllers
             return new UserDto
             {
                 Username = user.Username,
+                FirstName = user.FirstName,
                 Token = tokenService.CreateToken(user)
             };
         }
@@ -53,6 +54,7 @@ namespace budgetChartAPI.Controllers
             return new UserDto 
             {
                 Username = user.Username,
+                FirstName = user.FirstName,
                 Token = tokenService.CreateToken(user)
             };
         }
